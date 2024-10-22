@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #0c1d4f, #19144d);
+    color: white;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.right-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right-section div, .sign-up {
+    margin-right: 15px;
+}
+
+.new {
+    background-color: yellow;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.sign-up {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: #0056b3;
+}
